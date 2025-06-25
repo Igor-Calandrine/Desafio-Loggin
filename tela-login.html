@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <!--Fonte Family-->
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Carattere&display=swap" rel="stylesheet">
+    <!--Icones-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+
 </head>
 <body>
     <main> 
@@ -13,14 +18,15 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) vovamente. Faça o login para acessar sua conta e configurar o seu ambiente.</p>
                 <form action="teste.php" method="post">
+
+                    <p class="input"><label for="user"><i class="material-symbols-outlined">person:</i></label> 
+                        <input type="text" name="user" id="user" minlength="8" maxlength="12" placeholder="Usuário" required ></p>
                     
-                    <p><label for="user">Usuário:</label> 
-                        <input type="text" name="user" id="user" minlength="8" maxlength="12" placeholder="Usuário" required></p>
-                    
-                    <p><label for="password">Senha:</label> 
+                    <p class="input"><label for="password"><i class="material-symbols-outlined">key:</i></label> 
                         <input type="password" name="password" id="password" minlength="8" maxlength="12" placeholder="Senha" required></p>
                     
-                    <p><input type="submit" value="Entrar"></p> <p><input type="button" value="Esqueci a senha"></p>
+                    <p><input type="submit" value="Entrar" class="botao"></p> 
+                    <p><input type="button" value="Esqueci a senha" class="botao" id="esqueci"></p>
                 </form>
 
             </div>

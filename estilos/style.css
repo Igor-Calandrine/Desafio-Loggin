@@ -37,9 +37,8 @@ main section div#login {
 
 #login h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.2em;
-    padding: 5px;
+    font-family: "Carattere", cursive;
+    font-size: 2.5em;
 }
 
 #login p {
@@ -47,7 +46,44 @@ main section div#login {
     text-align: justify;
     padding: 5px;
     font-size: 1em;
+    margin: 1px;
 
+}
+
+.material-symbols-outlined {
+    color: rgb(255, 255, 255);
+}
+
+
+.input {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(147, 25, 143);
+    border-radius: 20px;
+    border: 2.5px solid rgb(255, 255, 255);
+}
+
+.input input {
+    
+    width: 90%;
+    height: 30px;
+}
+
+.botao {
+    width: calc(100% + 2px);
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(198, 113, 251);
+    color: rgb(0, 0, 0);
+    font-family: "Carattere", cursive;
+    font-size: 1.7em;
+}
+
+#esqueci {
+    background-color: rgb(214, 207, 229);
+    color: black;
 }
 
 main section div#imagem {
@@ -62,3 +98,4 @@ main section div#imagem {
     border-bottom-right-radius: 10px;
     
 }
+
