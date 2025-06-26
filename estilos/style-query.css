@@ -54,7 +54,7 @@ Grandes: acime de 1200px */
         padding: 5px;
     }
 
-    #login p {
+    #login > p {
         padding: 8px;
         font-size: 1em;
         margin: 2px;
