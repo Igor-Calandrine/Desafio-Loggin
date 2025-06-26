@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Todas as demias mídias*/
+
+/* Typical Device Breackpoints
+-------------------------------------
+Pequenas: até 600px
+Celulares: de 600px até 760px
+Tablets: 760px até 992px
+Desktops: 992px até 1200px
+Grandes: acime de 1200px */
+
+@media screen and (min-width:760px) {
+    main section {
+        display: block;
+        max-width: 532px;
+        height: 80vh;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    main section {
+        display: block;
+        max-width: 532px;
+        height: 80vh;
+        margin: auto;
+    }
+}
