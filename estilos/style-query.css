@@ -12,18 +12,61 @@ Grandes: acime de 1200px */
 
 @media screen and (min-width:760px) {
     main section {
-        display: block;
-        max-width: 532px;
-        height: 80vh;
-        margin: auto;
+        width: 532px;
     }
 }
 
 @media screen and (min-width:1200px) {
+
+    html, body {
+
+        background: 
+        radial-gradient(circle at 20% 30%, rgba(116, 44, 168, 0.352), transparent 60%),
+        radial-gradient(circle at 80% 60%, rgba(145, 27, 185, 0.381), transparent 60%),
+        radial-gradient(circle at 50% 50%, rgba(29, 15, 120, 0.66), transparent 50%);
+        background-color: #040404;
+}
+
     main section {
-        display: block;
-        max-width: 532px;
-        height: 80vh;
-        margin: auto;
+        width: 1000px;
+        height: 50vh;
+        background-image: url(../imagens/arvore-680.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 50%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+    main section div#login {
+        display: inline-block;
+        width: 500px;
+        height: 50vh;
+        padding: 2px 10px;
+        background-color: rgb(214, 207, 229);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
     }
+
+    #login h1 {
+        font-size: 3.5em;
+        padding: 5px;
+    }
+
+    #login p {
+        padding: 8px;
+        font-size: 1em;
+        margin: 2px;
+}
+
+    .botao {
+        font-size: 1.8em;
+        padding: 7px;
+        margin-bottom: 10px;
+}
+
+    main section div#imagem {
+        background-image: none;
+}
 }
